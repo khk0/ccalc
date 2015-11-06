@@ -1,2 +1,2 @@
 # ccalc
-Calc
+A very basic and simple calc
