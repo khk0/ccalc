@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Math Expression Project</h1>
+    <p class="lead">This is a Math Expression Project</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Math Expression</h2>
+        <p>
+
+            <form method="post">
+
+                <textarea name="expression"></textarea>
+                <input type="submit" value="Calculate" />
+                <p>
+                = @ViewBag.TellMe
+                    </p>
+
+            </form>
+
+        </p>
+    </div>
+</div>
